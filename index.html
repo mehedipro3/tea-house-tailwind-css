@@ -19,14 +19,17 @@
         extend: {
           colors: {
             clifford: '#da373d',
-          }
-        }
-      }
+          },
+          fontFamily: {
+            manrop:[ 'Manrope', 'sans-serif'],
+          },
+        },
+      },
     }
   </script>
 </head>
 
-<body>
+<body class="font-manrop">
 
   <!-- main section  -->
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
@@ -67,7 +70,7 @@
       <div class="text-center mb-8">
         <h1 class="text-3xl md:text-4xl font-bold mb-5">Our Featured Products</h1>
         <p class="text-gray-500 max-w-s">There are many variations of passages of Lorem Ipsum available, but the
-          majority have suffered alteration in some form, by injected humour, or randomised words which don't look even
+          majority have suffered alteration in some form, by injected humour, or randomized words which don't look even
           slightly believable. </p>
       </div>
       <!-- grid card  -->
@@ -193,7 +196,56 @@
         </div>
       </div>
     </section>
-    <!-- new section add  -->
+
+    <!-- news and event section  -->
+     <section class="mb-24">
+      <!-- text  -->
+       <div class="text-center mb-8">
+        <h1 class="text-4xl font-bold mb-5">News & Events</h1>
+        <p class="text-gray-500 max-w-s">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomized words which don't look even slightly believable. </p>
+       </div>
+      <!-- cards  -->
+       <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-start ">
+         <!-- first card  -->
+         <div class="border border-inherit rounded-lg shadow-md overflow-hidden">
+          <img class="mx-auto pt-4 p-4" src="./images/news-1.png" alt="">
+          <div class="p-4">
+            <p class="text-gray-500 pb-4">Feb 05, 2027</p>
+          <h3 class="text-2xl font-bold ">Collecting 8 points for discount</h3>
+          <br>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+          <br>
+          <h4 class="text-xl font-bold hover:text-green-500">Learn More</h4>
+          </div>
+         </div>
+         <!-- second card  -->
+         <div class="border border-inherit rounded-lg shadow-md overflow-hidden">
+          <img class="mx-auto pt-4 p-4" src="./images/news-2.png" alt="">
+          <div class="p-4">
+            <p class="text-gray-500 pb-4">Feb 30, 2026</p>
+          <h3 class="text-2xl font-bold ">Collecting 8 points for discount</h3>
+          <br>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+          <br>
+          <h4 class="text-xl font-bold hover:text-green-500">Learn More</h4>
+          </div>
+         </div>
+         <!-- last card  -->
+         <div class="border border-inherit rounded-lg shadow-md overflow-hidden">
+          <img class="mx-auto pt-4 p-4" src="./images/news-3.png" alt="">
+          <div class="p-4">
+            <p class="text-gray-500 pb-4">Feb 25, 2025</p>
+          <h3 class="text-2xl font-bold ">Collecting 8 points for discount</h3>
+          <br>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+          <br>
+          <h4 class="text-xl font-bold hover:text-green-500">Learn More</h4>
+          </div>
+         </div>
+       </div>
+     </section>
+
+
   </main>
   <footer class="bg-orange-100 text-gray-700 px-4 py-10 md:px-16">
     <div class="w-9/12 mx-auto">
@@ -277,6 +329,7 @@
         </div>
     </div>
   </footer>
+  
 </body>
 
 </html>
